@@ -1,7 +1,7 @@
 site_name: NeilAlfred's Blog 
-site_url: https://NeilAlfred.github.io/Blog/
+site_url: https://NeilAlfred.github.io/NeilAlfred.github.io/
 repo_url: https://github.com/NeilAlfred/NeilAlfred.github.io
-repo_name: NeilAlfred/Blog
+repo_name: NeilAlfred.github.io
 theme:
   name: material
   palette:
