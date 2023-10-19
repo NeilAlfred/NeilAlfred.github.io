@@ -6,12 +6,12 @@ on:
       - main
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu22.04
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v3
         with:
-          python-version: 3.10
+          python-version: "3.10"
       # - run: pip install mkdocs-material 
       - run: pip --trusted-host pypi.org --trusted-host files.pythonhosted.org install pymdown-extensions mkdocs-material mkdocs-material-extensions mkdocs-macros-plugin
       - run: mkdocs gh-deploy --force
