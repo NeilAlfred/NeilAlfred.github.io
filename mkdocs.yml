@@ -21,7 +21,7 @@ theme:
     code: Cascadia
 
 nav:
-  - 个人介绍: index.md
+  - 个人介绍: introduction.md
 
 markdown_extensions:
   - attr_list
